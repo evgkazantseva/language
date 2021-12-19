@@ -1,0 +1,22 @@
+@import "../assets/css/Variables.scss";
+
+.line {
+  width: 100%;
+
+  & > td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+  }
+}
+
+.input {
+  width: 80%;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.buttons {
+  align-items: center;
+}
