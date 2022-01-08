@@ -1,7 +1,6 @@
-@import "../assets/css/Variables.scss";
+@import "../../assets/css/Variables.scss";
 
 .header {
-  position: fixed;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -14,15 +13,6 @@
 
   background-color: rgb(255, 255, 255);
   box-sizing: border-box;
-}
-
-.info {
-  display: flex;
-  align-items: center;
-  font-size: x-large;
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
 }
 
 .h1 {

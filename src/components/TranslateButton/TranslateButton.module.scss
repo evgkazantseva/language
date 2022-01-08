@@ -1,0 +1,31 @@
+@import "../../assets/css/Variables.scss";
+
+.button {
+  padding: 2% 3%;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: medium;
+
+  &:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+  }
+  background-color: $customGreen;
+
+  &:hover {
+    background-color: $customGreenDarker;
+  }
+}
+
+.translation {
+  font-weight: bolder;
+  font-size: x-large;
+
+  &:hover {
+    cursor: pointer;
+    color: $customGreenDarker;
+    transition: all 0.5s;
+  }
+}
